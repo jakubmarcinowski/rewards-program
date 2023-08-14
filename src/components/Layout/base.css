@@ -1,0 +1,19 @@
+:root {
+  --main-bg-color: #dddddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 320px;
+}
+
+td,
+th {
+  border: 1px solid var(--main-bg-color);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--main-bg-color);
+}
